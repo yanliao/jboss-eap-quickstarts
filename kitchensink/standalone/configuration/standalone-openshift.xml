@@ -320,7 +320,7 @@
                 <cluster-password>${jboss.messaging.cluster.password:CHANGE ME!!}</cluster-password>
                 <persistence-enabled>true</persistence-enabled>
                 <journal-type>NIO</journal-type>
-                <journal-min-files>3</journal-min-files>
+                <journal-min-files>6</journal-min-files>
                 <connectors>
                     <netty-connector name="netty" socket-binding="messaging"/>
                     <netty-connector name="netty-throughput" socket-binding="messaging-throughput">
